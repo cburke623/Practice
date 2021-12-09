@@ -1,0 +1,27 @@
+nav{
+    border: 1px solid red;
+    height: 185px;
+}
+body{
+    margin: 0;
+
+}
+.banner {
+    height: 124px; 
+    background-color:#b7bbbd;
+}
+.list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.list ul li {
+    float: left; 
+    
+}
+.list ul li:not(:last-child){
+    margin-right: 20px;
+}
+.list ul li img{
+    border-radius: 50%;
+}
